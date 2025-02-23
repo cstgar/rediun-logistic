@@ -11,13 +11,13 @@
                 <input type="password" class="form-control" id="inputPassword2" placeholder="Contraseña">
             </div>
             <div id="change-pswd" class="text-end mb-4 p-0">
-                <a href="/cambio" class="btn btn-link">Olvide mi contraseña</a>
+                <a class="btn btn-link">Olvide mi contraseña</a>
             </div>
             <div id="btn-login" class="text-center mt-5">
                 <button type="submit" class="btn btn-primary btn-lg mb-1">Iniciar sesión</button>
             </div>
             <div id="registro" class="text-end p-0">
-                <a href="/register" class="btn btn-link">Olvide mi contraseña</a>
+                <a routerLink="/registro" class="btn btn-link">Registrarse</a>
             </div>
         </form>
     </div>
@@ -26,4 +26,4 @@
         <img src="https://i.imgur.com/t3W1oXY.png" alt="rediun_refrigeradosrojo" class="img-fluid img-full">
     </div>
 </div>
-
+<router-outlet></router-outlet>
